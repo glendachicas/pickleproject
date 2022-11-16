@@ -12,6 +12,7 @@ font-family: 'Space Mono', monospace;
 font-family: 'Roboto', sans-serif; 
 margin: 0;
 box-sizing: border-box; 
+
 }
 /* Top portion of page */
 .top{
@@ -44,11 +45,92 @@ a{
 }
 
 .navTitle{
-    padding-left: 25%;
+    padding-left: 32%;
     font-weight: 500;
     font-size: 36px;
 }
 
 .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-image: url("./images/2\ \(1\).png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+
+   
+
+}
+
+h1{
+    color:white;
+    font-size:7em;
+}
+
+.shopBtn{
+    font-size:2em;
+    padding:25px;
+    width: 15%;
+    color:#DA7162;
+    margin-top:2.5%;
     
+}
+
+
+h2{
+    font-weight: 500;
+    font-size: 4em;
+    margin-top: 10%;
+}
+
+h3{
+    font-weight: lighter;
+    font-size:2em;
+    margin-top: 2.5%;
+
+}
+
+.middleTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.midPics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.productPic{
+    width: 33.33%;
+    
+}
+
+.productPic img {
+    width: 100%;
+}
+
+.pinkBtn{
+    font-size:2em;
+    padding:25px;
+    width: 15%;
+    color:white;
+    background-color: #DA7162;
+    margin-top:2.5%;
+    
+}
+
+
+.midBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
