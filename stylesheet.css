@@ -124,6 +124,7 @@ h3{
     color:white;
     background-color: #DA7162;
     margin-top:2.5%;
+    padding-bottom: 25px;
     
 }
 
@@ -132,5 +133,45 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 25px;
 
+}
+
+/* Section with image */
+.pinkJars{
+  width: 100%
+}
+
+
+
+
+/* section with h2, h3, button and 3 divs */
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.pinkBtn{
+    font-size:2em;
+    padding: 25px;
+    width: 20%;
+    color:white;
+    background-color: #DA7162;
+    margin-top:2.5%;
+   
+}
+
+.subscribeBtn{
+    display: block;
+    align-items: center;
+    justify-content: ;
+    padding: 25px;
+}
+
+.productPic{
+    
 }
