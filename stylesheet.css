@@ -14,6 +14,7 @@ margin: 0;
 box-sizing: border-box; 
 
 }
+
 /* Top portion of page */
 .top{
     background-color:#E2B46D ;
@@ -64,6 +65,9 @@ a{
    
 
 }
+
+/* @media screen and (min-width:200px) and (max-width:2571px){
+    } */
 
 h1{
     color:white;
@@ -153,8 +157,6 @@ h3{
     justify-content: center;
 }
 
-
-
 .pinkBtn{
     font-size:2em;
     padding: 25px;
@@ -166,12 +168,34 @@ h3{
 }
 
 .subscribeBtn{
-    display: block;
-    align-items: center;
-    justify-content: ;
-    padding: 25px;
+   display:block;
+   margin-top: 10px;
+   padding:20px;
+   width: 100%;
+   box-sizing: border-box;
+   text-align: center;
 }
 
 .productPic{
     
+    width: 33.3%;
+
+}
+
+.productPic img {
+    width: 100%;
+}
+
+.bottomPics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+/* Footer */
+footer{
+    background-color:#DA7162;
+    color: white;
+    height: 100%;
 }
